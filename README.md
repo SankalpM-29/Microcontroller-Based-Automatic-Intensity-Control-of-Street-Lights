@@ -17,7 +17,7 @@ When there is any vehicle on the road, it is detected by the PIR sensor. It just
 
 ## Block Diagram
 
-<img src="images/block_diagram.jpg" width="900" height="550">
+<img src="images/block_diagram.jpg" width="900" height="500">
 
 ## Run Locally
 
