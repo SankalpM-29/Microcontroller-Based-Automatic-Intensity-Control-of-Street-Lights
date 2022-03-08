@@ -1,3 +1,9 @@
+// During day-time the intensity of street light is varied using LDR
+//At night during peak hours(23hr to 07hr) the light is controlled using PIR sensor.When the PIR sensor detects any motion it switches on the light for a specific period of time
+//Here just for demonstration purpose the led will light up for 2 seconds only. LED represents the street light.
+//The LCD will display time only during peak hours(23hr to 07hr) at night.
+//To check this circuit during day-time, set hr value of function rtc_set_t(hr,mm,ss) between 06 to 23 [means 7am to 11pm] (24 hrs format), which is there in the main function.
+//To check this circuit during night, set hr value of function rtc_set_t(hr,mm,ss) between 22 to 07 [means 11pm to 7am] (24 hrs format)  which is there in the main function.
 #include <inttypes.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
