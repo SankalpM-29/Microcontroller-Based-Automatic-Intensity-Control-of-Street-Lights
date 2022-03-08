@@ -10,3 +10,7 @@ The proposed system controls the street lights using light dependent sensor and 
 ## Block Diagram
 
 ![Block Diagram of Project!](block_diagram.jpg "Block Diagram of Project")
+
+## Demo
+
+<img src="images/night_time_demo.gif" width="800" height="500">
