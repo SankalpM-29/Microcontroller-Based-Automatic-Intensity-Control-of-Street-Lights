@@ -9,7 +9,7 @@ The proposed system controls the street lights using light dependent sensor and 
 
 ## Block Diagram
 
-![Block Diagram of Project!](block_diagram.jpg "Block Diagram of Project")
+![Block Diagram of Project!](images/block_diagram.jpg "Block Diagram of Project")
 
 ## Demo
 
